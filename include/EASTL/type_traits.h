@@ -1032,7 +1032,7 @@ namespace eastl
 			native = big
 		#endif
 	};
-	EA_RESTORE_VC_WARNING();
+	EA_RESTORE_VC_WARNING()
 
 } // namespace eastl
 

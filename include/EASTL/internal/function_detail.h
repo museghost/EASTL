@@ -657,7 +657,7 @@ namespace eastl
 					EASTL_ASSERT_MSG(false, "function_detail call on an empty function_detail<R(Args..)>");
 				#endif
 			};
-			EA_RESTORE_VC_WARNING();
+			EA_RESTORE_VC_WARNING()
 			EA_RESTORE_CLANG_WARNING();
 			EA_RESTORE_GCC_WARNING();
 

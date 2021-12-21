@@ -34,7 +34,7 @@
 				EA_DISABLE_VC_WARNING(4459 4456);		\
 				volatile long _;						\
 				_InterlockedExchangeAdd(&_, 0);			\
-				EA_RESTORE_VC_WARNING();				\
+				EA_RESTORE_VC_WARNING()				\
 			}
 
 	#else

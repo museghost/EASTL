@@ -1685,8 +1685,8 @@ namespace eastl
 } // namespace eastl
 
 
-EA_RESTORE_VC_WARNING();
-EA_RESTORE_VC_WARNING();
+EA_RESTORE_VC_WARNING()
+EA_RESTORE_VC_WARNING()
 
 
 // We have to either #include enable_shared.h here or we need to move the enable_shared source code to here.
