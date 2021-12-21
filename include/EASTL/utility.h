@@ -23,7 +23,7 @@
 // 4619 - There is no warning number 'number'.
 // 4217 - Member template functions cannot be used for copy-assignment or copy-construction.
 // 4512 - 'class' : assignment operator could not be generated.  // This disabling would best be put elsewhere.
-EA_DISABLE_VC_WARNING(4619 4217 4512);
+EA_DISABLE_VC_WARNING(4619 4217 4512)
 
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)

@@ -51,7 +51,7 @@ EA_RESTORE_ALL_VC_WARNINGS()
 // 4512 - 'class' : assignment operator could not be generated.
 // 4530 - C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
 // 4571 - catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught.
-EA_DISABLE_VC_WARNING(4512 4530 4571);
+EA_DISABLE_VC_WARNING(4512 4530 4571)
 
 
 namespace eastl

@@ -248,7 +248,7 @@
 #include <EASTL/internal/generic_iterator.h>
 #include <EASTL/random.h>
 
-EA_DISABLE_ALL_VC_WARNINGS();
+EA_DISABLE_ALL_VC_WARNINGS()
 
 	#if defined(EA_COMPILER_MSVC) && (defined(EA_PROCESSOR_X86) || defined(EA_PROCESSOR_X86_64))
 		#include <intrin.h>
@@ -257,7 +257,7 @@ EA_DISABLE_ALL_VC_WARNINGS();
 	#include <stddef.h>
 	#include <string.h> // memcpy, memcmp, memmove
 
-EA_RESTORE_ALL_VC_WARNINGS();
+EA_RESTORE_ALL_VC_WARNINGS()
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
 	#pragma once // Some compilers (e.g. VC++) benefit significantly from using this. We've measured 3-4% build speed improvements in apps as a result.

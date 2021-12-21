@@ -53,7 +53,7 @@ EA_RESTORE_ALL_VC_WARNINGS()
 // 4345 - Behavior change: an object of POD type constructed with an initializer of the form () will be default-initialized
 // 4571 - catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught.
 // 4623 - default constructor was implicitly defined as deleted
-EA_DISABLE_VC_WARNING(4530 4345 4571 4623);
+EA_DISABLE_VC_WARNING(4530 4345 4571 4623)
 
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)

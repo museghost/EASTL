@@ -42,7 +42,7 @@
 // copy constructor could not be generated because a base class copy constructor is inaccessible or deleted.
 // assignment operator could not be generated because a base class assignment operator is inaccessible or deleted.
 // non dll-interface class used as base for DLL-interface classkey 'identifier'.
-EA_DISABLE_VC_WARNING(4625 4626 4275);
+EA_DISABLE_VC_WARNING(4625 4626 4275)
 
 
 #if defined(EA_PLATFORM_MICROSOFT)

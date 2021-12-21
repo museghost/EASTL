@@ -8,7 +8,7 @@
 #include <EABase/eabase.h>
 
 #if defined(EA_PLATFORM_MICROSOFT)
-	EA_DISABLE_ALL_VC_WARNINGS();
+	EA_DISABLE_ALL_VC_WARNINGS()
 	#if defined(EA_COMPILER_MSVC)
 		#include <crtdbg.h>
 	#endif
@@ -16,7 +16,7 @@
 		#define WIN32_LEAN_AND_MEAN
 	#endif
 	#include <Windows.h>
-	EA_RESTORE_ALL_VC_WARNINGS();
+	EA_RESTORE_ALL_VC_WARNINGS()
 #elif defined(EA_PLATFORM_ANDROID)
 	#include <android/log.h>
 #else

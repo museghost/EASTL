@@ -88,7 +88,7 @@ EA_RESTORE_ALL_VC_WARNINGS()
 // 4530 - C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
 // 4146 - unary minus operator applied to unsigned type, result still unsigned
 // 4571 - catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught.
-EA_DISABLE_VC_WARNING(4530 4146 4571);
+EA_DISABLE_VC_WARNING(4530 4146 4571)
 
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)

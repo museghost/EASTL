@@ -32,11 +32,11 @@
 #if EASTL_LIBSTDCPP_DEMANGLE_AVAILABLE
 	#include <cxxabi.h>
 #elif EA_WINAPI_FAMILY_PARTITION(EA_WINAPI_PARTITION_DESKTOP)
-	EA_DISABLE_ALL_VC_WARNINGS();
+	EA_DISABLE_ALL_VC_WARNINGS()
 	#include <Windows.h>
 	#include <DbgHelp.h>
 	#pragma comment(lib, "dbghelp.lib")
-	EA_RESTORE_ALL_VC_WARNINGS();
+	EA_RESTORE_ALL_VC_WARNINGS()
 #endif
 
 

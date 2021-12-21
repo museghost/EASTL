@@ -25,7 +25,7 @@
 
 // There is no warning number 'number'.
 // Member template functions cannot be used for copy-assignment or copy-construction.
-EA_DISABLE_VC_WARNING(4619 4217);
+EA_DISABLE_VC_WARNING(4619 4217)
 
 
 namespace eastl

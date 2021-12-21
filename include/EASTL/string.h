@@ -122,7 +122,7 @@ EA_RESTORE_ALL_VC_WARNINGS()
 // 4571 - catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught.
 // 4267 - 'argument' : conversion from 'size_t' to 'const uint32_t', possible loss of data. This is a bogus warning resulting from a bug in VC++.
 // 4702 - unreachable code
-EA_DISABLE_VC_WARNING(4530 4480 4571 4267 4702);
+EA_DISABLE_VC_WARNING(4530 4480 4571 4267 4702)
 
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)

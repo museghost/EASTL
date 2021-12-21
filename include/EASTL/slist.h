@@ -34,11 +34,11 @@
 #include <EASTL/bonus/compressed_pair.h>
 #include <stddef.h>
 
-EA_DISABLE_ALL_VC_WARNINGS();
+EA_DISABLE_ALL_VC_WARNINGS()
 
 	#include <new>
 
-EA_RESTORE_ALL_VC_WARNINGS();
+EA_RESTORE_ALL_VC_WARNINGS()
 
 EA_DISABLE_SN_WARNING(828); // The EDG SN compiler has a bug in its handling of variadic template arguments and mistakenly reports "parameter "args" was never referenced"
 
@@ -46,7 +46,7 @@ EA_DISABLE_SN_WARNING(828); // The EDG SN compiler has a bug in its handling of 
 // 4530 - C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
 // 4345 - Behavior change: an object of POD type constructed with an initializer of the form () will be default-initialized
 // 4571 - catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught.
-EA_DISABLE_VC_WARNING(4530 4345 4571);
+EA_DISABLE_VC_WARNING(4530 4345 4571)
 
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)

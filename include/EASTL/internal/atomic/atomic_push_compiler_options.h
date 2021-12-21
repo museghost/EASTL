@@ -7,7 +7,7 @@
 
 
 // 'class' : multiple assignment operators specified
-EA_DISABLE_VC_WARNING(4522);
+EA_DISABLE_VC_WARNING(4522)
 
 // misaligned atomic operation may incur significant performance penalty
 // The above warning is emitted in earlier versions of clang incorrectly.

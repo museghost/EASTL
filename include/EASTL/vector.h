@@ -53,12 +53,12 @@ EA_RESTORE_ALL_VC_WARNINGS()
 // 4530 - C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
 // 4480 - nonstandard extension used: specifying underlying type for enum
 // 4571 - catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught.
-EA_DISABLE_VC_WARNING(4530 4480 4571);
+EA_DISABLE_VC_WARNING(4530 4480 4571)
 
 // 4345 - Behavior change: an object of POD type constructed with an initializer of the form () will be default-initialized
 // 4244 - Argument: conversion from 'int' to 'const eastl::vector<T>::value_type', possible loss of data
 // 4127 - Conditional expression is constant
-EA_DISABLE_VC_WARNING(4345 4244 4127);
+EA_DISABLE_VC_WARNING(4345 4244 4127)
 
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)

@@ -31,12 +31,12 @@
 #include <EASTL/type_traits.h>
 
 
-EA_DISABLE_ALL_VC_WARNINGS();
+EA_DISABLE_ALL_VC_WARNINGS()
 #include <new>
-EA_RESTORE_ALL_VC_WARNINGS();
+EA_RESTORE_ALL_VC_WARNINGS()
 
 // 4275 - non dll-interface class used as base for DLL-interface classkey 'identifier'
-EA_DISABLE_VC_WARNING(4275);
+EA_DISABLE_VC_WARNING(4275)
 
 
 namespace eastl

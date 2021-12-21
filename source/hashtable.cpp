@@ -9,7 +9,7 @@
 #include <stddef.h>
 
 
-EA_DISABLE_VC_WARNING(4267); // 'argument' : conversion from 'size_t' to 'const uint32_t', possible loss of data. This is a bogus warning resulting from a bug in VC++.
+EA_DISABLE_VC_WARNING(4267) // 'argument' : conversion from 'size_t' to 'const uint32_t', possible loss of data. This is a bogus warning resulting from a bug in VC++.
 
 
 namespace eastl

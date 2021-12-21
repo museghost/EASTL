@@ -27,22 +27,22 @@
 #include <EASTL/internal/config.h>
 #include <EASTL/algorithm.h>
 
-EA_DISABLE_ALL_VC_WARNINGS();
+EA_DISABLE_ALL_VC_WARNINGS()
 
 #include <stddef.h>
 #include <string.h>
 
-EA_RESTORE_ALL_VC_WARNINGS();
+EA_RESTORE_ALL_VC_WARNINGS()
 
 #if EASTL_EXCEPTIONS_ENABLED
-	EA_DISABLE_ALL_VC_WARNINGS();
+	EA_DISABLE_ALL_VC_WARNINGS()
 
 	#include <stdexcept> // std::out_of_range, std::length_error.
 
-	EA_RESTORE_ALL_VC_WARNINGS();
+	EA_RESTORE_ALL_VC_WARNINGS()
 #endif
 
-EA_DISABLE_VC_WARNING(4127); // Conditional expression is constant
+EA_DISABLE_VC_WARNING(4127) // Conditional expression is constant
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
 	#pragma once // Some compilers (e.g. VC++) benefit significantly from using this. We've measured 3-4% build speed improvements in apps as a result.

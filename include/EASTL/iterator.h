@@ -11,26 +11,26 @@
 #include <EASTL/internal/move_help.h>
 #include <EASTL/initializer_list.h>
 
-EA_DISABLE_ALL_VC_WARNINGS();
+EA_DISABLE_ALL_VC_WARNINGS()
 
 #include <stddef.h>
 
-EA_RESTORE_ALL_VC_WARNINGS();
+EA_RESTORE_ALL_VC_WARNINGS()
 
 // If the user has specified that we use std iterator
 // categories instead of EASTL iterator categories,
 // then #include <iterator>.
 #if EASTL_STD_ITERATOR_CATEGORY_ENABLED
-	EA_DISABLE_ALL_VC_WARNINGS();
+	EA_DISABLE_ALL_VC_WARNINGS()
 
 	#include <iterator>
 
-	EA_RESTORE_ALL_VC_WARNINGS();
+	EA_RESTORE_ALL_VC_WARNINGS()
 #endif
 
 
-EA_DISABLE_VC_WARNING(4619); // There is no warning number 'number'.
-EA_DISABLE_VC_WARNING(4217); // Member template functions cannot be used for copy-assignment or copy-construction.
+EA_DISABLE_VC_WARNING(4619) // There is no warning number 'number'.
+EA_DISABLE_VC_WARNING(4217) // Member template functions cannot be used for copy-assignment or copy-construction.
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
 	#pragma once // Some compilers (e.g. VC++) benefit significantly from using this. We've measured 3-4% build speed improvements in apps as a result.

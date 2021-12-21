@@ -20,13 +20,13 @@
 #include <EASTL/allocator.h>
 #include <EASTL/type_traits.h>
 
-EA_DISABLE_ALL_VC_WARNINGS();
+EA_DISABLE_ALL_VC_WARNINGS()
 
 #include <new>
 
-EA_RESTORE_ALL_VC_WARNINGS();
+EA_RESTORE_ALL_VC_WARNINGS()
 
-EA_DISABLE_VC_WARNING(4275); // non dll-interface class used as base for DLL-interface classkey 'identifier'
+EA_DISABLE_VC_WARNING(4275) // non dll-interface class used as base for DLL-interface classkey 'identifier'
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
 	#pragma once // Some compilers (e.g. VC++) benefit significantly from using this. We've measured 3-4% build speed improvements in apps as a result.

@@ -19,7 +19,7 @@ EA_DISABLE_ALL_VC_WARNINGS()
 	#include <stdexcept>
 	#include <new>
 #endif
-EA_RESTORE_ALL_VC_WARNINGS();
+EA_RESTORE_ALL_VC_WARNINGS()
 
 
 int TestAlgorithm();
